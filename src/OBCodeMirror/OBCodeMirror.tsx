@@ -1,8 +1,7 @@
 import { useState } from 'react';
 import { Box, Flex, Icon } from '@chakra-ui/react';
 
-import { BiCodeBlock, BiX, BiWindows, BiWindow } from 'react-icons/bi';
-import { GrClose } from 'react-icons/gr';
+import { BiCodeBlock, BiX, BiWindow } from 'react-icons/bi';
 import OBCodeInput from './OBCodeInput';
 import OBCodeOutput from './OBCodeOutput';
 import { executeCode } from '../middleware/execute.middleware';
