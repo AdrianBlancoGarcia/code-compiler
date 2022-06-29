@@ -12,22 +12,14 @@ function OBCodeOutput({ theme, value }: InputProps) {
       <Flex
         color="black"
         width="100%"
-        bg={theme === 'dark' ? 'rgba(39, 39, 39, 1)' : 'rgba(203, 203, 203, 1)'}
-        rounded="20px 20px 0px 0px"
+        bg='#FFFFFF'
+        p='15px 20px'
+        h='70px'
+        align="center"
+        fontSize='14px'
+        fontWeight='bold'
       >
-        <Flex
-          bg="rgba(58, 58, 58, 1)"
-          color="white"
-          p="5px 8px"
-          rounded="10px"
-          fontSize="12px"
-          align="center"
-          justify="center"
-          mt="10px"
-          ml="10px"
-        >
-          console
-        </Flex>
+        Console
       </Flex>
       <CodeEditor
         readOnly
@@ -37,11 +29,10 @@ function OBCodeOutput({ theme, value }: InputProps) {
         padding={15}
         style={{
           fontSize: 12,
-          backgroundColor: theme === 'dark' ? 'rgba(39, 39, 39, 1)' : 'rgba(203, 203, 203, 1)',
-          height: '483px',
-          width: '549px',
-          borderRadius: '0px 0px 20px 20px',
-          color: theme === 'dark' ? 'white' : 'black',
+          backgroundColor: '#F8F8F9',
+          height: '753px',
+          width: '492.5px',
+          color: 'black',
           fontFamily: 'ui-monospace,SFMono-Regular,SF Mono,Consolas,Liberation Mono,Menlo,monospace',
         }}
       />
